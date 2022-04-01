@@ -1,0 +1,27 @@
+/*.lead {
+    width: 68%;
+}*/
+
+.lead__title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 110%;
+    margin: 0;
+    padding: 50.15px 16px 0 16px;
+    
+
+}
+
+.lead__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    margin: 0;
+    padding: 16px 16px 40px;
+}
+
+.lead__image {
+    filter: grayscale(100%); 
+    max-width: 100%;
+}
