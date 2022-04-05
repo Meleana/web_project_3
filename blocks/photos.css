@@ -1,0 +1,12 @@
+.photos {
+    display: grid;
+    gap: 12px;
+    margin: 0;
+    grid-template-rows: repeat(8, 1fr);
+    padding: 0 16px 0;
+    margin: 0 0 62px;
+}
+
+.photos__item {
+    width: 100%;
+}

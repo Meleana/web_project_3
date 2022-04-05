@@ -1,0 +1,32 @@
+/*.button {
+    background-color: #0278fe;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 122%;
+    text-align: center;
+    color: #ffffff;
+    padding: 13px 40px;
+    margin: 0 16px 0;
+    text-decoration: none;
+}*/
+
+.button {
+    background-color: #0278fe;
+    color: #fefefe;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+    padding: 13px 40px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 121%;
+    -webkit-appearance: none;
+    cursor: pointer;
+  }
+
+  .button:hover {
+  background-color: #0063d2;
+  }
