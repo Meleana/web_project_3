@@ -2,7 +2,7 @@
 position: relative;
 min-width: 320px;
 /*width: 100%;*/
-background: #2A2C2F;
+margin: 0 auto;
 color: #ffffff;
 font-family: "Inter", sans-serif;
 text-align: center;
@@ -11,4 +11,10 @@ text-align: center;
 -webkit-text-size-adjust: 100%;
 -ms-text-size-adjust: 100%;
 -moz-text-size-adjust: 100%; 
+}
+
+@media screen and (min-width: 1024px) {
+    .page {
+        width: 984px;
+    }
 }

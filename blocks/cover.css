@@ -1,7 +1,7 @@
 .cover {
   position: relative;
   min-height: 254px;
-  width: 100%;
+  /* width: 100%; */
   height: 65vw;
   background-image: url(../images/cover.png);
   background-position: center center;
@@ -33,14 +33,14 @@
 }
 
 .cover__title {
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
   font-weight: 900;
   font-size: 2rem;
   line-height: 2.1875rem;
 }
 
 .cover__sibtitle {
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
   padding: 0 20px;
   font-weight: 400;
   font-size: 0.875rem;
@@ -52,3 +52,40 @@
   /*margin: 0 94px 0 89px;*/
 }
 
+@media screen and (min-width: 768px) {
+  .cover {
+    position: relative;
+    margin-bottom: 88px;
+  }
+
+  .cover__title {
+    margin-bottom: 32px;
+    padding: 0 56px;
+    font-size: 4.5rem;
+    line-height: 4.75rem;
+  }
+
+  .cover__sibtitle {
+    margin-bottom: 32px;
+    padding: 0 244px;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    height: 58vw;
+    margin-left: calc(-100vw / 2 + 1080px / 2);
+    margin-right: calc(-100vw / 2 + 1080px / 2);
+    margin-bottom: 92px;
+  }
+
+  .cover::before {
+    height: 58vw;
+  }
+
+  .cover:hover::before {
+    opacity: 0.8;
+  }
+}

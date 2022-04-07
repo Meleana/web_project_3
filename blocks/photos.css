@@ -1,12 +1,37 @@
 .photos {
-    display: grid;
-    gap: 12px;
-    margin: 0;
-    grid-template-rows: repeat(8, 1fr);
-    padding: 0 16px;
-    margin-bottom: 62px;
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 0 16px;
+  margin-bottom: 62px;
 }
 
 .photos__item {
-    width: 100%;
+  width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+  .photos {
+    gap: 16px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 24px;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .photos {
+    padding: 0;
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 92px;
+    margin-left: calc(-100vw / 2 + 1080px / 2);
+    margin-right: calc(-100vw / 2 + 1080px / 2);
+  }
+}
+
+
+
+
+

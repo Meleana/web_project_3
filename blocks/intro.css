@@ -32,3 +32,30 @@
     line-height: 1.625rem;
 }
 
+@media screen and (min-width: 768px){
+    
+    .intro__title {
+        font-size: 3.375rem;
+        line-height: 3.625rem;
+    }
+    
+    .intro__quote {
+        line-height: 2.125rem;
+    }
+    
+    .intro__quote-author {
+        font-size: 1.5rem;
+        line-height: 2.125rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro {
+        margin-bottom: 118px;
+        max-width: 720px;
+    }
+
+    .intro__title {
+        margin-right: -65px;
+    }
+}

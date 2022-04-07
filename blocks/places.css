@@ -1,9 +1,9 @@
-/*.places {
-    
-}*/
-
 .places__place {
     margin-bottom: 64px;
-    /* padding: 0; */
 }
 
+@media screen and (min-width: 768px) {
+    .places__place {
+        margin-bottom: 92px;
+    }
+}
