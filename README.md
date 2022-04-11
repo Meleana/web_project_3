@@ -9,8 +9,10 @@
 ### Project technologies:
 1. HTML cascade
 2. CSS including Flex and Grid layouts and @mediascreen properties for several screen resolutions
-3. Figma design tool 
-4. BEM based file structure
+3. media queries (adapted for all screen sizes)
+4. Figma design tool 
+5. BEM based file structure
+
   
 **Intro**    
   
