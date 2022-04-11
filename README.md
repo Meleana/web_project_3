@@ -1,21 +1,31 @@
 # Project 3: From Homeland to Homeland
-![Begining](./images/lead.png)
+![Begining](./images/monochrom.jpg)
 
-### Overview  
-* Intro  
-* Figma  
-* Images  
+
+## Project Description
+####  Incredible story about people from different parts of the Earth which are working together to make a great influence to the world of high technologies. It doen't matter where you from! the only one thing is extremely important : your own motivation to do something realy great!
+
+
+### Project technologies:
+1. HTML cascade
+2. CSS including Flex and Grid layouts and @mediascreen properties for several screen resolutions
+3. Figma design tool 
+4. BEM based file structure
   
 **Intro**    
   
 This is a project that showcases the hometowns of some of Practicum's employees. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
   
-**Figma**  
+**GitHub page's link**  
+#### ["Practicum Art Gallery"](https://meleana.github.io/web_project_3/) 
   
-* [Link to the project on Figma](https://www.figma.com/file/1zCYcflj6BJx5VqOvXU9nb/Sprint-3-From-Homeland-to-Homeland-desktop-mobile?node-id=0%3A1)  
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!  
+## Plan on improving the project
+
+- Design discussion. Error correction/redesign/elimination of visual inaccuracies
+- Adding content
+- Creating 2 page wrappers (width and full width)
+- Improve photo quality depending on device (screen size)
+- Adaptation/reduction of code
+- Include links to various media sources of photo authors
+- Possibility to purchase photos through the site 
+- Create a mobile app

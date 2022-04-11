@@ -3,15 +3,14 @@
 }*/
 
 .header__logo {
-   /*padding: calc(62.5% - 52.5%) calc(62.5% - 32.5%) 0 calc(62.5% - 32.5%);*/
-   margin: 20px 0 50px;
-   /* padding: 0 60px; */
-
+  /*padding: calc(62.5% - 52.5%) calc(62.5% - 32.5%) 0 calc(62.5% - 32.5%);*/
+  margin: 20px 0 50px;
+  /* padding: 0 60px; */
 }
 
-@media screen and (min-width: 768px){
-    .header__logo {
-        margin: 34px 0 90px;
-        min-width: 270px;
-    }
+@media screen and (min-width: 768px) {
+  .header__logo {
+    margin: 34px 0 90px;
+    min-width: 270px;
+  }
 }
