@@ -42,20 +42,20 @@
     .intro__quote {
         line-height: 2.125rem;
     }
-    
-    .intro__quote-author {
-        font-size: 1.5rem;
-        line-height: 2.125rem;
-    }
 }
 
 @media screen and (min-width: 1024px) {
     .intro {
         margin-bottom: 118px;
-        max-width: 720px;
+        padding-left: 100px;
     }
 
     .intro__title {
-        margin-right: -65px;
+       max-width: 785px;
     }
+
+    .intro__quote, .intro__quote-author, .intro__text  {
+       max-width: 720px;
+    }
+    
 }

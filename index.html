@@ -42,15 +42,15 @@
     <meta name="theme-color" content="#ffffff" />
   </head>
 
-  <body>
-    <div class="page">
-      <div class="header">
+  <body class="page">
+    <div class="page__container">
+      <header class="header">
         <img
           class="header__logo"
           src="./images/logo.svg"
           alt="Practicum art gallery logo"
         />
-      </div>
+      </header>
 
       <main class="main">
         <section class="lead">
@@ -91,8 +91,7 @@
             neighbor.
           </p>
         </section>
-        <section>
-          <div class="photos">
+        <section class="photos">
             <img
               class="photos__item"
               src="./images/item1.png"
@@ -133,17 +132,15 @@
               src="./images/item8.png"
               alt="Photos of hometowns from different people"
             />
-          </div>
         </section>
         <section class="places">
-          <div class="places__place">
             <article class="place">
               <h2 class="place__title">Kyiv, Ukraine</h2>
               <div class="place__website">
                 <p class="place__url-heading">Artist</p>
-                <h3 class="place__artist">
+                <p class="place__artist">
                   Natalia Dolgushina, content producer
-                </h3>
+                </p>
               </div>
               <img
                 class="place__image"
@@ -177,14 +174,14 @@
               </a>
             </article>
 
-            <div class="place">
+            <article class="place">
               <h2 class="place__title">Cricieth, Wales</h2>
               <div class="place__website">
                 <p class="place__url-heading">Artist</p>
-                <h3 class="place__artist">Steffan Warren, lead editor</h3>
-                <h3 class="place__artist">
+                <p class="place__artist">Steffan Warren, lead editor</p>
+                <p class="place__artist">
                   Kseniya Glagoleva, project manager
-                </h3>
+                </p>
               </div>
               <img
                 class="place__image"
@@ -217,13 +214,13 @@
               >
                 Buy this artwork as NFT
               </a>
-            </div>
+            </article>
 
-            <div class="place">
+            <article class="place">
               <h2 class="place__title">Berea, USA</h2>
               <div class="place__website">
                 <p class="place__url-heading">Artist</p>
-                <h3 class="place__artist">Travis Turner, author and editor</h3>
+                <p class="place__artist">Travis Turner, author and editor</p>
               </div>
               <img
                 class="place__image"
@@ -255,13 +252,13 @@
               >
                 Buy this artwork as NFT
               </a>
-            </div>
+            </article>
 
-            <div class="place">
+            <article class="place">
               <h2 class="place__title">Muramvya, Burundi</h2>
               <div class="place__website">
                 <p class="place__url-heading">Artist</p>
-                <h3 class="place__artist">Grevisse Kenguruka, tech editor</h3>
+                <p class="place__artist">Grevisse Kenguruka, tech editor</p>
               </div>
               <img
                 class="place__image"
@@ -300,13 +297,13 @@
               >
                 Buy this artwork as NFT
               </a>
-            </div>
+            </article>
 
-            <!-- <div class="place">
+            <article class="place">
               <h2 class="place__title">Moscow, Russia</h2>
               <div class="place__website">
                 <p class="place__url-heading">Artist</p>
-                <h3 class="place__artist">Anastasia Shavrova, photographer</h3>
+                <p class="place__artist">Anastasia Shavrova, photographer</p>
               </div>
               <img
                 class="place__image"
@@ -325,16 +322,16 @@
               >
                 Buy this artwork as NFT
               </a>
-            </div> -->
-          </div>
+            </article>
         </section>
 
         <section class="cover">
           <div class="cover__container">
+            <div class="cover__content">
             <h2 class="cover__title">Visit us</h2>
-            <p class="cover__sibtitle">
+            <p class="cover__subtitle">
               <!-- Year-round<br />Practicum&nbsp;Art&nbsp;Gallery<br />404&nbsp;Tim&nbsp;Berners-Lee&nbsp;Ave -->
-             <span>Year-round</span><span> Practicum Art Gallery</span> 404 Tim Berners-Lee Ave
+             <span class="cover__subtitle_span">Year-round</span><span class="cover__subtitle_span"> Practicum Art Gallery</span> 404 Tim Berners-Lee Ave
             </p>
             <a
               class="button cover__button"
@@ -342,6 +339,7 @@
             >
               Buy tickets
             </a>
+          </div>
           </div>
         </section>
       </main>

@@ -1,4 +1,5 @@
 # Project 3: From Homeland to Homeland
+![Begining](./images/lead.png)
 
 ### Overview  
 * Intro  

@@ -1,0 +1,34 @@
+.lead__title,
+.lead__subtitle,
+.intro__title,
+.intro__quote,
+.intro__quote-author,
+.intro__text,
+.place__title,
+.place__url-heading,
+.place__artist,
+.place__description {
+  padding: 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__title,
+  .lead__subtitle,
+  .intro__title,
+  .intro__quote,
+  .intro__quote-author,
+  .intro__text {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__title,
+  .lead__subtitle,
+  .intro__title,
+  .intro__quote,
+  .intro__quote-author,
+  .intro__text {
+    padding: 0;
+  }
+}

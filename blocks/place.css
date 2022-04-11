@@ -105,7 +105,6 @@
 
   .place__description {
     padding: 0;
-    margin-bottom: 25px;
   }
 
   .place__description:last-of-type {
@@ -126,7 +125,6 @@
     margin-bottom: 80px;
     padding: 0;
     grid-template-columns: 460px auto;
-    grid-template-rows: auto auto 1fr;
     column-gap: 40px;
   }
 
@@ -141,8 +139,6 @@
   }
 
   .place__description {
-    padding: 0;
-    margin-bottom: 25px;
     font-size: 1.125rem;
     line-height: 1.8125rem;
   }
