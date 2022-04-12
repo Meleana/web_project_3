@@ -3,7 +3,7 @@
 
 
 ## Project Description
-####  Incredible story about people from different parts of the Earth which are working together to make a great influence to the world of high technologies. It doen't matter where you from! the only one thing is extremely important : your own motivation to do something realy great!
+Incredible story about people from different parts of the Earth which are working together to make a great influence to the world of high technologies. It doen't matter where you from! the only one thing is extremely important : your own motivation to do something realy great!
 
 
 ### Project technologies:
@@ -21,7 +21,7 @@ This is a project that showcases the hometowns of some of Practicum's employees.
 **GitHub page's link**  
 #### ["Practicum Art Gallery"](https://meleana.github.io/web_project_3/) 
   
-## Plan on improving the project
+##### Plan on improving the project
 
 - Design discussion. Error correction/redesign/elimination of visual inaccuracies
 - Adding content
