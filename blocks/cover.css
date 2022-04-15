@@ -1,8 +1,12 @@
 .cover {
-  position: relative;
-  min-height: 254px;
   max-width: 1184px;
   width: 100%;
+  margin-bottom: 64px;
+}
+.cover__container {
+  position: relative;
+  z-index: 1;
+  aspect-ratio: 160/127;
   background-image: url(../images/cover.png);
   background-position: center center;
   background-size: cover;
@@ -10,92 +14,70 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 64px;
+  align-items: center;
 }
-
-.cover::before {
+.cover__container::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #2a2c2f;
+  background-color: #2A2C2F;
   opacity: 0.3;
-  width: 100%;
-  min-height: 254px;
-  display: block;
-}
-
-.cover__container {
-  padding-top: 62.5%;
-  position: relative;
-  z-index: 1;
 }
 
 .cover__content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  display: table;
-  overflow: auto;
+  z-index: 1;
 }
 
 .cover__title {
-  margin-bottom: 16px;
+  margin: 0 0 16px;
+  padding: 0;
   font-weight: 900;
   font-size: 2rem;
   line-height: 2.1875rem;
 }
-
 .cover__subtitle {
   display: block;
-  margin-bottom: 16px;
-  padding: 0 20px;
+  margin: 0 0 16px;
+  padding: 0;
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1rem;
 }
-
 .cover__subtitle-span {
   display: block;
 }
-
 .cover__button {
   padding: 13px 20px;
 }
-
 @media screen and (min-width: 768px) {
   .cover {
-    min-height: 746px;
-    margin-bottom: 88px;
+    margin-bottom: 88px;    
   }
-
+  .cover__container {
+    aspect-ratio: 384/373;
+  }
   .cover__title {
     margin-bottom: 32px;
-    padding: 0 56px;
     font-size: 4.5rem;
     line-height: 4.75rem;
   }
-
-  .cover__sibtitle {
+  .cover__subtitle {
     margin-bottom: 32px;
-    padding: 0 244px;
     font-size: 1.125rem;
     line-height: 1.375rem;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .cover {
-    min-height: 740px;
     margin-bottom: 92px;
   }
-
-  .cover:hover::before {
+  .cover__container {
+    aspect-ratio: 8/5;
+  }
+  .cover__container:hover::before {
     opacity: 0.8;
   }
 }
